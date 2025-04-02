@@ -86,7 +86,7 @@ ul#album-fotos li#foto04:hover {
 }
 
 ul#album-fotos li#foto05 {
-    background: url('../img/galeria-05.jpeg.crdownload') no-repeat;
+    background: url('../img/galeria-05.jpeg') no-repeat;
     background-position: 50% 50%;
     background-size: 640px 360px;
     background-color: white;
