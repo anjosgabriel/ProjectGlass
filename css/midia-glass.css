@@ -7,10 +7,62 @@ div#tv {
     background: url("../tv.jpg") no-repeat;
 }
 
+section {
+    display: flex;
+    gap: 20px;
+}
+
 video#filme {
     display: block;
     position: relative;
     left: 30px;
     top: 62px;
     width: 398px;
+}
+
+#newcont {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#newcont img {
+    width: 80%; /* Reduzindo a imagem */
+    max-width: 250px; /* Tamanho máximo */
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#newcont h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#newcont h3 {
+    font-size: 16px;
+    color: #555;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+#newcont a {
+    display: inline-block;
+    text-decoration: none;
+    background: #0071e3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+#newcont a:hover {
+    background: #005bb5;
 }
